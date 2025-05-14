@@ -6,8 +6,7 @@ import { Text, View } from 'react-native';
 const About = () => {
   return (
     <View style={sharedStyles.container}>
-      <Text>About Page</Text>
-
+      <Text style={sharedStyles.title}>About Page</Text>
       <Link href={"/"} style={sharedStyles.link}>Go Back</Link>
     </View>
   )

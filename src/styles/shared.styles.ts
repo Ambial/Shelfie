@@ -14,6 +14,7 @@ export const styles = StyleSheet.create({
   link: {
     color: "#007AFF",
     fontSize: 16,
-    textDecorationLine: "underline",
+    fontWeight: "bold",
+    borderBottomWidth: 1,
   },
 });

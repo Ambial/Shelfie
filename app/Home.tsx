@@ -12,7 +12,7 @@ const Home = () => {
       <Text style={sharedStyles.title}>Hello Expo!</Text>
       <Text style={styles.card}>Reading List App</Text>
 
-      <Link href={"/About"} style={sharedStyles.link}>About</Link>
+      <Link href={"/About"} style={[sharedStyles.link, styles.linkContainer]}>About</Link>
     </View>
   );
 };

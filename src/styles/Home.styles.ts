@@ -21,4 +21,7 @@ export const styles = StyleSheet.create({
     height: 100,
     marginBottom: 20,
   },
+  linkContainer: {
+    marginVertical: 20,
+  },
 });
