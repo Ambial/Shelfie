@@ -1,7 +1,7 @@
 import { styles } from "@/src/styles/Home.styles";
 import React from "react";
 import { Image, Text, View } from "react-native";
-import Logo from "../../assets/images/logo/reading_app_logo_light.png";
+import Logo from "../assets/images/logo/reading_app_logo_light.png";
 
 const Home = () => {
   return (
